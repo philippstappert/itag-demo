@@ -65,7 +65,8 @@ if ($_SERVER['HTTP_HOST'] !== $config->getConfigValue("site.host")) {
 $requestUri = $_SERVER['REQUEST_URI']; // get request uri from server
 $requestUri = str_replace("/index.php", "", $requestUri); // remove /index.php from requested uri
 $requestUri = explode("?", $requestUri)[0]; // remove get attributes from request uri
-
+sjdfölkajsdlökfjaösldkjfölkasdjf
+	
 $specialmappings = file_get_contents("specialmappings.json"); // read special url mappings from json file
 $specialmappings = json_decode($specialmappings, true); // convert read data into php array
 
