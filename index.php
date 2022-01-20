@@ -104,6 +104,8 @@ foreach ($modmapping as $urlmapping) {
 	}
 }
 
+lalal dies ist eine zeile
+
 // check if class and function were found, else raise error
 if ($classpath == "" or $actionFunction == "") {
 	LogHelper::addLogEntry("DEBUG", "HTTP/404: " . $requestUri);
